@@ -1,5 +1,5 @@
 import React from 'react';
-// import Films from './Films';
+import Films from './Films';
 
 function Character(props) {
     return (
@@ -12,7 +12,8 @@ function Character(props) {
             <p>{`Mass: ${props.starwarsChars.mass}`}</p>
             <p>{`Skin Color: ${props.starwarsChars.skin_color}`}</p>
             
-            {/* {props.starwarsChars.films.map(films => (<Films films={props.starwarsChars.films} starwarsFilms={props.starwarsFilms}/>))} */}
+            <h4>Films:</h4>
+            {props.starwarsChars.films.map(films => (<Films key={films} films={films} starwarsFilms={props.starwarsFilms}/>))}
         </div> 
     )
 };
