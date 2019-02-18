@@ -1,0 +1,24 @@
+
+.characters-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.character {
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 300px;
+    width: 40%;
+    margin: 5%;
+    padding: 3%;
+    box-shadow: 2px 2px 7px 1px grey;
+}
+
+.character h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
