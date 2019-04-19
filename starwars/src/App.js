@@ -65,7 +65,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        <CharactersList starwarsChars={this.state.starwarsChars} starwarsFilms={this.state.starwarsFilms}/>
+        <CharactersList starwarsChars={this.state.starwarsChars} starwarsFilms={this.state.starwarsFilms} starwarsVehicles={this.state.starwarsVehicles}/>
         {/* <CharactersList starwarsChars={this.state.starwarsChars} getFilms={this.getFilms}/> */}
       </div>
     );
